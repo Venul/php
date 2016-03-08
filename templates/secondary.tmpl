@@ -1,0 +1,10 @@
+<!-- begin: secondary.tmpl -->
+      {% for item in nav.secondary %}
+        <div class="ui one column grid">
+            <div class="column">
+              <a href="{{ item.url }}">{{ item.name }}</a>
+            </div>
+
+        </div>
+      {% endfor %}
+<!-- end: secondary.tmpl →

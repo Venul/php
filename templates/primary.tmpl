@@ -1,0 +1,11 @@
+<!-- begin: primary.tmpl -->
+<div class="ui grid">
+
+      {% for item in nav.primary %}
+        <div class="two wide column green column">
+      <a href="{{ item.url }}">{{ item.name|upper }}</a>
+        </div>
+      {% endfor %}
+
+</div>
+<!-- end: primary.tmpl →
